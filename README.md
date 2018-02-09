@@ -2,6 +2,7 @@
 # Language: C++
 # Input: CSV (network)
 # Output: NOA (list of central nodes and centrality values)
+# Tested with: PluMA 1.0, g++ 4.4 
 
 PluMA plugin that runs the Ablatio Triadum (ATria) centrality algorithm (Cickovski et al, 2015, 2017).
 ATria can run on signed and weighted networks and produces a list of central nodes as both screen
