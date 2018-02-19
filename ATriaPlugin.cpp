@@ -4,6 +4,7 @@
 #include <math.h>
 #include "PluginManager.h"
 #include "ATriaPlugin.h"
+#include "PluMA.h"
 
 ATriaPlugin::~ATriaPlugin() {
    if (OrigGraph) free(OrigGraph);
@@ -13,8 +14,6 @@ ATriaPlugin::~ATriaPlugin() {
 }
 
 void ATriaPlugin::input(std::string file) {
-
-
                 const char field_terminator = ',';
                 const char line_terminator  = '\n';
                 const char enclosure_char   = '"';
@@ -83,7 +82,7 @@ void ATriaPlugin::input(std::string file) {
 }
 
 void ATriaPlugin::run() {
-   std::cout << "I am running ATria" << std::endl;
+   PluginManager::log("I am running ATria");
 const int NumBytes=(GSIZE*2)*(GSIZE*2)*sizeof(float);
    H_G=(float *)malloc(NumBytes);
    U.resize(GSIZE, 0.0);
@@ -118,7 +117,7 @@ for (int a = 0; a < GSIZE; a++) {
                       maxpay = fabs(H_pay[i]);
                    }
                 }
-                cout << "Node with highest pay: " << bacteria[maxnode] << ": " << H_pay[maxnode] << endl;
+                PluginManager::log(std::string("Node with highest pay: "+bacteria[maxnode]+": "+std::to_string(H_pay[maxnode])));
                 U[maxnode] = H_pay[maxnode];
                 if (maxpay == 0)
                    break;
@@ -181,6 +180,7 @@ for (int i = GSIZE-1; i >= 0; i--)
               min = fabs(U[i]);
            noafile << bacteria[i] << "\t" << U[i] << "\t\t" << GSIZE-i << endl;
         }
+
 
 }
 
