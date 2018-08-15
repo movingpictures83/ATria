@@ -1,0 +1,2 @@
+Prefix plugins/ATria/example/
+Plugin ATria inputfile corrP.never.csv outputfile corrP.never.ATria.noa
