@@ -108,19 +108,28 @@ for (int a = 0; a < GSIZE; a++) {
                    pay--;
                    H_pay[i] = pay;
                 }
-                int maxnode = -1;
+		vector<int> maxnodes;
+                int mnode = -1;
                 float maxpay = -1;
                 for (int i = 0; i < GSIZE; i++) {
                    //cout << "Pay for " << bacteria[i] << ": " << H_pay[i] << endl;
                    if (fabs(H_pay[i]) > maxpay) {
-                      maxnode = i;
+                      mnode = i;
                       maxpay = fabs(H_pay[i]);
                    }
                 }
-                PluginManager::log(std::string("Node with highest pay: "+bacteria[maxnode]+": "+std::to_string(H_pay[maxnode])));
-                U[maxnode] = H_pay[maxnode];
                 if (maxpay == 0)
                    break;
+		maxnodes.push_back(mnode);
+		for (int i = 0; i < GSIZE; i++) {
+                   if ((i != mnode) && fabs(H_pay[i]) == maxpay) {
+                      maxnodes.push_back(i);     
+	           }
+		}
+		for (int w = 0; w < maxnodes.size(); w++) {
+			int maxnode = maxnodes[w];
+                PluginManager::log(std::string("Node with highest pay: "+bacteria[maxnode]+": "+std::to_string(H_pay[maxnode])));
+                U[maxnode] = H_pay[maxnode];
                 // Non-GPU Triad Removal
                 for (int i = 0; i < GSIZE*2; i++) {
                    if ((i/2 != maxnode) &&
@@ -148,7 +157,7 @@ for (int a = 0; a < GSIZE; a++) {
 
                 //_generate_result_file( bool(same_adj_Matrix==0 && same_path_Matrix==0),cpu_time,gpu_time,RANDOM_GSIZE);
            }
-
+}
 
 }
 
