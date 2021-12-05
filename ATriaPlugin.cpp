@@ -4,7 +4,6 @@
 #include <math.h>
 #include "PluginManager.h"
 #include "ATriaPlugin.h"
-#include "PluMA.h"
 #include "csv_parser/csv_parser.hpp"
 
 using namespace std;
@@ -163,9 +162,6 @@ for (int a = 0; a < GSIZE; a++) {
 }
 
 }
-
-
-
 
 void ATriaPlugin::output(std::string file) {
 for (int i = GSIZE-1; i >= 0; i--)
