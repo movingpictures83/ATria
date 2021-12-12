@@ -167,9 +167,9 @@ void csv_parser::_get_fields_without_enclosure(csv_row_ptr row, const char *line
 
     memset(field, 0, *line_length);
 
-    register unsigned int field_start = 0U;
-    register unsigned int field_end = 0U;
-    register unsigned int char_pos = 0U;
+    unsigned int field_start = 0U;
+    unsigned int field_end = 0U;
+    unsigned int char_pos = 0U;
 
     while (char_pos < *line_length)
     {
@@ -236,10 +236,10 @@ void csv_parser::_get_fields_with_enclosure(csv_row_ptr row, const char *line, c
 
     memset(field, 0, *line_length);
 
-    register unsigned int current_state = 0U;
-    register unsigned int field_start = 0U;
-    register unsigned int field_end = 0U;
-    register unsigned int char_pos = 0U;
+    unsigned int current_state = 0U;
+    unsigned int field_start = 0U;
+    unsigned int field_end = 0U;
+    unsigned int char_pos = 0U;
 
     while (char_pos < *line_length)
     {
@@ -253,7 +253,7 @@ void csv_parser::_get_fields_with_enclosure(csv_row_ptr row, const char *line, c
          * a 'real' enclosure character or if it is an embedded character that
          * has been escaped within the field.
          */
-        register char previous_char = 0x00;
+        char previous_char = 0x00;
 
         if (char_pos > 0U)
         {
@@ -355,9 +355,9 @@ void csv_parser::_get_fields_with_optional_enclosure(csv_row_ptr row, const char
 
     memset(field, 0, *line_length);
 
-    register unsigned int field_start = 0U;
-    register unsigned int field_end = 0U;
-    register unsigned int char_pos = 0U;
+    unsigned int field_start = 0U;
+    unsigned int field_end = 0U;
+    unsigned int char_pos = 0U;
 
     while (char_pos < *line_length)
     {
@@ -439,7 +439,7 @@ void csv_parser::_read_single_line(char **buffer, unsigned int *buffer_len)
   long int original_pos = ftell(input_fp);
   long int current_pos = original_pos;
 
-  register int current_char = 0;
+  int current_char = 0;
 
   /* Checking one character at a time until the end of a line is found */
   while (true)
