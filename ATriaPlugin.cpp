@@ -4,7 +4,9 @@
 #include <math.h>
 #include "PluginManager.h"
 #include "ATriaPlugin.h"
-#include "PluMA.h"
+#include "csv_parser/csv_parser.hpp"
+
+using namespace std;
 
 ATriaPlugin::~ATriaPlugin() {
    if (OrigGraph) free(OrigGraph);
@@ -32,8 +34,8 @@ void ATriaPlugin::input(std::string file) {
                 }
                 const int NumBytes=(GSIZE*2)*(GSIZE*2)*sizeof(float);
                 OrigGraph=(float *)malloc(NumBytes);//will be original Adjancency matrix, will NOT be changed
-                bacteria = new std::string[GSIZE];                               
- 
+                bacteria = new std::string[GSIZE];
+
                 file_parser.init(file.c_str());
                 unsigned int row_count = 0;
                 while(file_parser.has_more_rows())
@@ -77,7 +79,7 @@ void ATriaPlugin::input(std::string file) {
                         }
                         row_count++;
                 }
-  
+
 
 }
 
@@ -124,7 +126,7 @@ for (int a = 0; a < GSIZE; a++) {
 		maxnodes.push_back(mnode);
 		for (int i = 0; i < GSIZE; i++) {
                    if ((i != mnode) && fabs(H_pay[i]) == maxpay) {
-                      maxnodes.push_back(i);     
+                      maxnodes.push_back(i);
 	           }
 		}
 		for (int w = 0; w < maxnodes.size(); w++) {
@@ -162,9 +164,6 @@ for (int a = 0; a < GSIZE; a++) {
 }
 
 }
-
-
-
 
 void ATriaPlugin::output(std::string file) {
 for (int i = GSIZE-1; i >= 0; i--)
