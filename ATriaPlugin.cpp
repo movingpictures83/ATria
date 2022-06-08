@@ -90,6 +90,7 @@ const int NumBytes=(GSIZE*2)*(GSIZE*2)*sizeof(float);
 const int NumBytesPay=(GSIZE)*sizeof(float);   // N by 2N.  2 paths from every i to every j
                 H_pay = (float *)malloc(NumBytesPay);
 
+		int currentrank = 1;
 for (int a = 0; a < GSIZE; a++) {
                 //cout<<"Successfully created random highly connected graph in adjacency Matrix form with "<<RANDOM_GSIZE*RANDOM_GSIZE<< " elements.\n";
                 for(int i=0;i<GSIZE*2*GSIZE*2;i++){//copy for use in computation
@@ -129,7 +130,7 @@ for (int a = 0; a < GSIZE; a++) {
 		for (int w = 0; w < maxnodes.size(); w++) {
 			int maxnode = maxnodes[w];
                 PluginManager::log(std::string("Node with highest pay: "+bacteria[maxnode]+": "+std::to_string(H_pay[maxnode])));
-                U[maxnode] = H_pay[maxnode];
+                U[maxnode] = currentrank;//H_pay[maxnode];
                 // Non-GPU Triad Removal
                 for (int i = 0; i < GSIZE*2; i++) {
                    if ((i/2 != maxnode) &&
@@ -157,6 +158,7 @@ for (int a = 0; a < GSIZE; a++) {
 
                 //_generate_result_file( bool(same_adj_Matrix==0 && same_path_Matrix==0),cpu_time,gpu_time,RANDOM_GSIZE);
            }
+		currentrank += maxnodes.size();
 }
 
 }
@@ -167,7 +169,7 @@ for (int a = 0; a < GSIZE; a++) {
 void ATriaPlugin::output(std::string file) {
 for (int i = GSIZE-1; i >= 0; i--)
            for (int j = 0; j < i; j++) {
-              if (fabs(U[j]) < fabs(U[j+1])) {
+              if (fabs(U[j]) > fabs(U[j+1])) {
                  float tmp = U[j];
                  U[j] = U[j+1];
                  U[j+1] = tmp;
@@ -178,16 +180,19 @@ for (int i = GSIZE-1; i >= 0; i--)
            }
 
         std::ofstream noafile(file.c_str(), std::ios::out);
-        noafile << "Name\tCentrality\tRank" << endl;
+        //noafile << "Name\tCentrality\tRank" << endl;
+        noafile << "Name\tRank" << endl;
         float min = 0;
         float max = 0;
         for (int i = 0; i < GSIZE; i++) {
-           U[i] = fabs(U[i]);
+           /*U[i] = fabs(U[i]);
            if (fabs(U[i]) > max)
               max = fabs(U[i]);
            if (fabs(U[i]) < min)
-              min = fabs(U[i]);
-           noafile << bacteria[i] << "\t" << U[i] << "\t\t" << GSIZE-i << endl;
+              min = fabs(U[i]);*/
+           //noafile << bacteria[i] << "\t" << U[i] << "\t\t" << GSIZE-i << endl;
+	   if (U[i] != 0)
+           noafile << bacteria[i] << "\t" << U[i] << endl;// << "\t\t" << GSIZE-i << endl;
         }
 
 
