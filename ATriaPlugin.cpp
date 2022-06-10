@@ -180,7 +180,7 @@ for (int i = GSIZE-1; i >= 0; i--)
 
         std::ofstream noafile(file.c_str(), std::ios::out);
         //noafile << "Name\tCentrality\tRank" << endl;
-        noafile << "Name\tRank" << endl;
+        noafile << "Name\tCentrality\tRank" << endl;
         float min = 0;
         float max = 0;
         for (int i = 0; i < GSIZE; i++) {
@@ -191,7 +191,9 @@ for (int i = GSIZE-1; i >= 0; i--)
               min = fabs(U[i]);*/
            //noafile << bacteria[i] << "\t" << U[i] << "\t\t" << GSIZE-i << endl;
 	   if (U[i] != 0)
-           noafile << bacteria[i] << "\t" << U[i] << endl;// << "\t\t" << GSIZE-i << endl;
+           noafile << bacteria[i] << "\t" << "#" << U[i] << " " << bacteria[i] << "\t" << U[i] << endl;
+	   else
+           noafile << bacteria[i] << "\t" << bacteria[i] << "\t" << "NR" << endl;
         }
 
 

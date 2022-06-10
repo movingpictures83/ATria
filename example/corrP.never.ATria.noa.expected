@@ -1,127 +1,127 @@
 Name	Centrality	Rank
-F.Burkholderiaceae.02	21.2333		126
-F.Erysipelotrichaceae.01	13.7107		125
-F.Prevotellaceae.02	11.2373		124
-Bifidobacterium.01	10.5057		123
-Peptoniphilus.02	10.5057		122
-Peptoniphilus.03	10.5057		121
-Prevotella.03	7.58374		120
-Atopobium.02	7.17026		119
-C.Gammaproteobacteria.03	7.02645		118
-Selenomonas.02	6.43093		117
-TM7_genus_incertae_sedis.08	4.80032		116
-Porphyromonas.01	4.6043		115
-F.Enterobacteriaceae.01	4.24845		114
-Atopobium.01	4.17576		113
-Tannerella.01	3.95182		112
-TM7_genus_incertae_sedis.02	3.52974		111
-Mycoplasma.01	3.46756		110
-F.Pseudomonadaceae.02	3.12316		109
-TM7_genus_incertae_sedis.03	1.83219		108
-Parvimonas.01	1.74434		107
-O.Bacteroidales.02	1.73892		106
-Catonella.01	1.69823		105
-Neisseria.01	1.69807		104
-TM7_genus_incertae_sedis.04	1.65669		103
-Staphylococcus.01	1.35042		102
-Bulleidia.01	0.906288		101
-Gemella.01	0.906288		100
-O.Clostridiales.05	0.893878		99
-Prevotella.06	0.893878		98
-Actinomyces.02	0.89273		97
-TM7_genus_incertae_sedis.01	0.89273		96
-Dyella.01	0.890727		95
-F.Rhodocyclaceae.01	0.890727		94
-Peptostreptococcus.01	0.880539		93
-Veillonella.01	0.880539		92
-Acinetobacter.02	0.842433		91
-F.Prevotellaceae.03	0.842433		90
-Porphyromonas.02	0.840363		89
-Treponema.01	0.840363		88
-F.Pseudomonadaceae.01	0.837204		87
-Gp2.01	0.837204		86
-F.Prevotellaceae.01	0.797848		85
-O.Actinomycetales.01	0.797848		84
-Acinetobacter.01	0		83
-Actinomyces.01	0		82
-Alicyclobacillus.01	0		81
-Anaerococcus.01	0		80
-Anaerococcus.02	0		79
-Burkholderia.01	0		78
-C.Betaproteobacteria.01	0		77
-C.Betaproteobacteria.02	0		76
-C.Gammaproteobacteria.01	0		75
-C.Gammaproteobacteria.02	0		74
-C.Gammaproteobacteria.04	0		73
-C.Gammaproteobacteria.05	0		72
-C.Gammaproteobacteria.06	0		71
-C.Gammaproteobacteria.07	0		70
-C.Gammaproteobacteria.08	0		69
-C.Gammaproteobacteria.09	0		68
-C.Gammaproteobacteria.10	0		67
-C.Gammaproteobacteria.11	0		66
-Campylobacter.01	0		65
-Capnocytophaga.01	0		64
-Carnobacterium.01	0		63
-Chryseobacterium.01	0		62
-Corynebacterium.01	0		61
-Corynebacterium.02	0		60
-Dolosigranulum.01	0		59
-Eubacterium.01	0		58
-F.Alcaligenaceae.01	0		57
-F.Burkholderiaceae.01	0		56
-F.Carnobacteriaceae.01	0		55
-F.Comamonadaceae.01	0		54
-F.Comamonadaceae.02	0		53
-F.Neisseriaceae.01	0		52
-F.Pasteurellaceae.01	0		51
-F.Pasteurellaceae.02	0		50
-F.Xanthomonadaceae.01	0		49
-Fusobacterium.01	0		48
-Fusobacterium.02	0		47
-Gp2.02	0		46
-Lactobacillus.01	0		45
-Marinobacter.01	0		44
-Megasphaera.01	0		43
-Metascardovia.01	0		42
-Microbacterium.01	0		41
-Mogibacterium.01	0		40
-O.Actinomycetales.02	0		39
-O.Actinomycetales.03	0		38
-O.Actinomycetales.04	0		37
-O.Bacteroidales.01	0		36
-O.Burkholderiales.01	0		35
-O.Clostridiales.01	0		34
-O.Clostridiales.02	0		33
-O.Clostridiales.03	0		32
-O.Clostridiales.04	0		31
-P.Firmicutes.01	0		30
-Paracoccus.01	0		29
-Parvimonas.02	0		28
-Parvimonas.03	0		27
-Peptoniphilus.01	0		26
-Porphyromonas.03	0		25
-Prevotella.01	0		24
-Prevotella.02	0		23
-Prevotella.04	0		22
-Prevotella.05	0		21
-Prevotella.07	0		20
-Prevotella.08	0		19
-Prevotella.09	0		18
-Prevotella.10	0		17
-Propionibacterium.01	0		16
-Propionibacterium.02	0		15
-Pseudomonas.01	0		14
-Pseudomonas.02	0		13
-Ralstonia.01	0		12
-Rhizobium.01	0		11
-Selenomonas.01	0		10
-Selenomonas.03	0		9
-Solobacterium.01	0		8
-Streptococcus.01	0		7
-Sulfuricurvum.01	0		6
-TM7_genus_incertae_sedis.05	0		5
-TM7_genus_incertae_sedis.06	0		4
-TM7_genus_incertae_sedis.07	0		3
-Tropheryma.01	0		2
-Veillonella.02	0		1
+Acinetobacter.01	Acinetobacter.01	NR
+Actinomyces.01	Actinomyces.01	NR
+Alicyclobacillus.01	Alicyclobacillus.01	NR
+Anaerococcus.01	Anaerococcus.01	NR
+Anaerococcus.02	Anaerococcus.02	NR
+Burkholderia.01	Burkholderia.01	NR
+C.Betaproteobacteria.01	C.Betaproteobacteria.01	NR
+C.Betaproteobacteria.02	C.Betaproteobacteria.02	NR
+C.Gammaproteobacteria.01	C.Gammaproteobacteria.01	NR
+C.Gammaproteobacteria.02	C.Gammaproteobacteria.02	NR
+C.Gammaproteobacteria.04	C.Gammaproteobacteria.04	NR
+C.Gammaproteobacteria.05	C.Gammaproteobacteria.05	NR
+C.Gammaproteobacteria.06	C.Gammaproteobacteria.06	NR
+C.Gammaproteobacteria.07	C.Gammaproteobacteria.07	NR
+C.Gammaproteobacteria.08	C.Gammaproteobacteria.08	NR
+C.Gammaproteobacteria.09	C.Gammaproteobacteria.09	NR
+C.Gammaproteobacteria.10	C.Gammaproteobacteria.10	NR
+C.Gammaproteobacteria.11	C.Gammaproteobacteria.11	NR
+Campylobacter.01	Campylobacter.01	NR
+Capnocytophaga.01	Capnocytophaga.01	NR
+Carnobacterium.01	Carnobacterium.01	NR
+Chryseobacterium.01	Chryseobacterium.01	NR
+Corynebacterium.01	Corynebacterium.01	NR
+Corynebacterium.02	Corynebacterium.02	NR
+Dolosigranulum.01	Dolosigranulum.01	NR
+Eubacterium.01	Eubacterium.01	NR
+F.Alcaligenaceae.01	F.Alcaligenaceae.01	NR
+F.Burkholderiaceae.01	F.Burkholderiaceae.01	NR
+F.Carnobacteriaceae.01	F.Carnobacteriaceae.01	NR
+F.Comamonadaceae.01	F.Comamonadaceae.01	NR
+F.Comamonadaceae.02	F.Comamonadaceae.02	NR
+F.Neisseriaceae.01	F.Neisseriaceae.01	NR
+F.Pasteurellaceae.01	F.Pasteurellaceae.01	NR
+F.Pasteurellaceae.02	F.Pasteurellaceae.02	NR
+F.Xanthomonadaceae.01	F.Xanthomonadaceae.01	NR
+Fusobacterium.01	Fusobacterium.01	NR
+Fusobacterium.02	Fusobacterium.02	NR
+Gp2.02	Gp2.02	NR
+Lactobacillus.01	Lactobacillus.01	NR
+Marinobacter.01	Marinobacter.01	NR
+Megasphaera.01	Megasphaera.01	NR
+Metascardovia.01	Metascardovia.01	NR
+Microbacterium.01	Microbacterium.01	NR
+Mogibacterium.01	Mogibacterium.01	NR
+O.Actinomycetales.02	O.Actinomycetales.02	NR
+O.Actinomycetales.03	O.Actinomycetales.03	NR
+O.Actinomycetales.04	O.Actinomycetales.04	NR
+O.Bacteroidales.01	O.Bacteroidales.01	NR
+O.Burkholderiales.01	O.Burkholderiales.01	NR
+O.Clostridiales.01	O.Clostridiales.01	NR
+O.Clostridiales.02	O.Clostridiales.02	NR
+O.Clostridiales.03	O.Clostridiales.03	NR
+O.Clostridiales.04	O.Clostridiales.04	NR
+P.Firmicutes.01	P.Firmicutes.01	NR
+Paracoccus.01	Paracoccus.01	NR
+Parvimonas.02	Parvimonas.02	NR
+Parvimonas.03	Parvimonas.03	NR
+Peptoniphilus.01	Peptoniphilus.01	NR
+Porphyromonas.03	Porphyromonas.03	NR
+Prevotella.01	Prevotella.01	NR
+Prevotella.02	Prevotella.02	NR
+Prevotella.04	Prevotella.04	NR
+Prevotella.05	Prevotella.05	NR
+Prevotella.07	Prevotella.07	NR
+Prevotella.08	Prevotella.08	NR
+Prevotella.09	Prevotella.09	NR
+Prevotella.10	Prevotella.10	NR
+Propionibacterium.01	Propionibacterium.01	NR
+Propionibacterium.02	Propionibacterium.02	NR
+Pseudomonas.01	Pseudomonas.01	NR
+Pseudomonas.02	Pseudomonas.02	NR
+Ralstonia.01	Ralstonia.01	NR
+Rhizobium.01	Rhizobium.01	NR
+Selenomonas.01	Selenomonas.01	NR
+Selenomonas.03	Selenomonas.03	NR
+Solobacterium.01	Solobacterium.01	NR
+Streptococcus.01	Streptococcus.01	NR
+Sulfuricurvum.01	Sulfuricurvum.01	NR
+TM7_genus_incertae_sedis.05	TM7_genus_incertae_sedis.05	NR
+TM7_genus_incertae_sedis.06	TM7_genus_incertae_sedis.06	NR
+TM7_genus_incertae_sedis.07	TM7_genus_incertae_sedis.07	NR
+Tropheryma.01	Tropheryma.01	NR
+Veillonella.02	Veillonella.02	NR
+F.Burkholderiaceae.02	#1 F.Burkholderiaceae.02	1
+F.Erysipelotrichaceae.01	#2 F.Erysipelotrichaceae.01	2
+F.Prevotellaceae.02	#3 F.Prevotellaceae.02	3
+Bifidobacterium.01	#4 Bifidobacterium.01	4
+Peptoniphilus.02	#4 Peptoniphilus.02	4
+Peptoniphilus.03	#4 Peptoniphilus.03	4
+Atopobium.02	#7 Atopobium.02	7
+C.Gammaproteobacteria.03	#8 C.Gammaproteobacteria.03	8
+Prevotella.03	#9 Prevotella.03	9
+Selenomonas.02	#10 Selenomonas.02	10
+Porphyromonas.01	#11 Porphyromonas.01	11
+F.Enterobacteriaceae.01	#12 F.Enterobacteriaceae.01	12
+Atopobium.01	#13 Atopobium.01	13
+TM7_genus_incertae_sedis.08	#14 TM7_genus_incertae_sedis.08	14
+Tannerella.01	#15 Tannerella.01	15
+Mycoplasma.01	#16 Mycoplasma.01	16
+F.Pseudomonadaceae.02	#17 F.Pseudomonadaceae.02	17
+TM7_genus_incertae_sedis.03	#18 TM7_genus_incertae_sedis.03	18
+Parvimonas.01	#19 Parvimonas.01	19
+O.Bacteroidales.02	#20 O.Bacteroidales.02	20
+Catonella.01	#21 Catonella.01	21
+Neisseria.01	#22 Neisseria.01	22
+TM7_genus_incertae_sedis.04	#23 TM7_genus_incertae_sedis.04	23
+Staphylococcus.01	#24 Staphylococcus.01	24
+TM7_genus_incertae_sedis.02	#25 TM7_genus_incertae_sedis.02	25
+Bulleidia.01	#26 Bulleidia.01	26
+Gemella.01	#26 Gemella.01	26
+O.Clostridiales.05	#28 O.Clostridiales.05	28
+Prevotella.06	#28 Prevotella.06	28
+Actinomyces.02	#30 Actinomyces.02	30
+TM7_genus_incertae_sedis.01	#30 TM7_genus_incertae_sedis.01	30
+Dyella.01	#32 Dyella.01	32
+F.Rhodocyclaceae.01	#32 F.Rhodocyclaceae.01	32
+Peptostreptococcus.01	#34 Peptostreptococcus.01	34
+Veillonella.01	#34 Veillonella.01	34
+Acinetobacter.02	#36 Acinetobacter.02	36
+F.Prevotellaceae.03	#36 F.Prevotellaceae.03	36
+Porphyromonas.02	#38 Porphyromonas.02	38
+Treponema.01	#38 Treponema.01	38
+F.Pseudomonadaceae.01	#40 F.Pseudomonadaceae.01	40
+Gp2.01	#40 Gp2.01	40
+F.Prevotellaceae.01	#42 F.Prevotellaceae.01	42
+O.Actinomycetales.01	#42 O.Actinomycetales.01	42
